@@ -1,11 +1,11 @@
 # React Vessel
-![version](https://img.shields.io/npm/v/@mornya/react-vessel)
+![npm](https://img.shields.io/npm/v/@mornya/react-vessel)
 ![node](https://img.shields.io/node/v/@mornya/react-vessel)
 ![types](https://img.shields.io/npm/types/@mornya/react-vessel)
 ![downloads](https://img.shields.io/npm/dw/@mornya/react-vessel)
 ![license](https://img.shields.io/npm/l/@mornya/react-vessel)
 
-Copyright 2020. mornya. All rights reserved.
+Copyright 2021. mornya. All rights reserved.
 
 ## About
 SPA 형태의 React.js 앱 개발을 위한 TypeScript/ECMAScript 기반 스켈레톤을 생성해 주는 프로젝트.
@@ -106,6 +106,13 @@ $ react-vessel build
 > 해당 명령 실행시에만 캐시 디렉토리가 제거 대상에 포함된다.
 ```bash
 $ react-vessel clean
+```
+
+### `Check`
+타입스크립트 코드 검증을 위해 컴파일러를 실행한다.<br>
+> `lint-stage` 등에서 필요시 사용한다.
+```bash
+$ vessel check
 ```
 
 ### `Bundle Analyze`

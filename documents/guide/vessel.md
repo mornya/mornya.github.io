@@ -5,7 +5,7 @@
 ![downloads](https://img.shields.io/npm/dw/@mornya/vessel)
 ![license](https://img.shields.io/npm/l/@mornya/vessel)
 
-Copyright 2020. mornya. All rights reserved.
+Copyright 2021. mornya. All rights reserved.
 
 ## About
 라이브러리(디펜던시 모듈) 개발을 위한 TypeScript/ECMAScript 기반 스켈레톤을 생성해 주는 프로젝트.
@@ -132,7 +132,7 @@ TypeScript 컴파일러를 통해 트랜스파일된 `.js` 파일들이 추출�
 # 빌드만 실행
 $ vessel build
 
-# 빌드 및 watch 실행
+# 빌드 및 watch 모드 실행
 $ vessel build watch
 ```
 
@@ -141,6 +141,13 @@ $ vessel build watch
 > 해당 명령 실행시에만 캐시 디렉토리가 제거 대상에 포함된다.
 ```bash
 $ vessel clean
+```
+
+### `Check`
+타입스크립트 코드 검증을 위해 컴파일러를 실행한다.<br>
+> `lint-stage` 등에서 필요시 사용한다.
+```bash
+$ vessel check
 ```
 
 ### `Login registry`
