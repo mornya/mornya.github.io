@@ -1,0 +1,29 @@
+{
+	"bundleId":"WebManagerDemo",
+	"currentRevision":"2",
+	"revisionData":{
+		"3":{
+			"version":"1.1",
+			"desc":"",
+			"+":[],
+			"-":[]
+		},
+		"2":{
+			"version":"1.0",
+			"desc":"추가된 이미지를 보여주기 위한 인덱스 파일 수정",
+			"+":[
+					{"src":"m@android.webmanagerdemo/revision.2/index.html", "dst":"index.html", "len":171}
+				],
+			"-":[]
+		},
+		"1":{
+			"version":"0.1",
+			"desc":"1. a.png, b.png 등 이미지파일 추가\n2. 버그 수정",
+			"+":[
+					{"src":"m@android.webmanagerdemo/revision.1/a.jpg", "dst":"img/a.png", "len":30047},
+					{"src":"m@android.webmanagerdemo/revision.1/b.jpg", "dst":"img/b.png", "len":45086}
+				],
+			"-":[]
+		}
+	}
+}
